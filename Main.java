@@ -28,16 +28,22 @@ class Main
         /*
          * Task 1.  Create an array of integers from 0 to n-1
          *          call this array ar1.  Print it out below.
+         *          
          */
-        System.out.println("*** PRINTING ar1 *");
+        System.out.println("*** PRINTING ar1 ***");
+        int[] ar1= new int[n];
         
-                
+        
         /*
          * Task 2.  Create a new array called ar2.
          *          Copy the elements of ar1 into ar2.
          */
-        
-        
+        System.out.print("*** AR2 ***");
+        int[] ar2 = new int[n];
+        for(int i = 0; i<ar2.length; i ++)
+        {
+            System.out.println("ar2 ["+i+"]) =" +ar2[i]);
+        }
         /* 
          * Task 3. Add 1 to each element in ar1.  Print it out below
          */
